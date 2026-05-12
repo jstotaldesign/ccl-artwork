@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "create": "สร้าง",
+    "loading": "กำลังโหลด...",
+    "search": "ค้นหา",
+    "yes": "ใช่",
+    "no": "ไม่"
+  },
+  "auth": {
+    "signIn": "เข้าสู่ระบบ",
+    "signUp": "สมัครสมาชิก",
+    "signOut": "ออกจากระบบ",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "forgotPassword": "ลืมรหัสผ่าน?",
+    "magicLink": "ส่งลิงก์เข้าสู่ระบบ",
+    "continueWith": "เข้าสู่ระบบด้วย {provider}"
+  },
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "projects": "โปรเจกต์",
+    "team": "ทีม",
+    "billing": "การชำระเงิน",
+    "settings": "ตั้งค่า"
+  },
+  "billing": {
+    "currentPlan": "แพ็กเกจปัจจุบัน",
+    "upgrade": "อัปเกรด",
+    "manageBilling": "จัดการการชำระเงิน",
+    "trialEnds": "ทดลองใช้สิ้นสุด {date}"
+  },
+  "errors": {
+    "required": "จำเป็น",
+    "invalidEmail": "อีเมลไม่ถูกต้อง",
+    "unauthorized": "ไม่ได้รับอนุญาต",
+    "notFound": "ไม่พบข้อมูล",
+    "serverError": "เกิดข้อผิดพลาด"
+  }
+}

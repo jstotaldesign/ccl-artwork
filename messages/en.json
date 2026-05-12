@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "loading": "Loading...",
+    "search": "Search",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "magicLink": "Send magic link",
+    "continueWith": "Continue with {provider}"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "team": "Team",
+    "billing": "Billing",
+    "settings": "Settings"
+  },
+  "billing": {
+    "currentPlan": "Current plan",
+    "upgrade": "Upgrade",
+    "manageBilling": "Manage billing",
+    "trialEnds": "Trial ends {date}"
+  },
+  "errors": {
+    "required": "Required",
+    "invalidEmail": "Invalid email",
+    "unauthorized": "Unauthorized",
+    "notFound": "Not found",
+    "serverError": "Something went wrong"
+  }
+}

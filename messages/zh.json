@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "loading": "加载中...",
+    "search": "搜索",
+    "yes": "是",
+    "no": "否"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "signOut": "退出登录",
+    "email": "邮箱",
+    "password": "密码",
+    "forgotPassword": "忘记密码？",
+    "magicLink": "发送魔法链接",
+    "continueWith": "使用 {provider} 继续"
+  },
+  "nav": {
+    "dashboard": "仪表板",
+    "projects": "项目",
+    "team": "团队",
+    "billing": "账单",
+    "settings": "设置"
+  },
+  "billing": {
+    "currentPlan": "当前套餐",
+    "upgrade": "升级",
+    "manageBilling": "管理账单",
+    "trialEnds": "试用截止 {date}"
+  },
+  "errors": {
+    "required": "必填",
+    "invalidEmail": "邮箱无效",
+    "unauthorized": "未授权",
+    "notFound": "未找到",
+    "serverError": "发生错误"
+  }
+}

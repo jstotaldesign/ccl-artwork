@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "သိမ်းမည်",
+    "cancel": "မလုပ်တော့ပါ",
+    "delete": "ဖျက်မည်",
+    "edit": "ပြင်ဆင်",
+    "create": "ဖန်တီး",
+    "loading": "ဖွင့်နေသည်...",
+    "search": "ရှာဖွေ",
+    "yes": "ဟုတ်ကဲ့",
+    "no": "မဟုတ်ပါ"
+  },
+  "auth": {
+    "signIn": "ဝင်ရောက်",
+    "signUp": "အကောင့်ဖွင့်",
+    "signOut": "ထွက်",
+    "email": "အီးမေးလ်",
+    "password": "စကားဝှက်",
+    "forgotPassword": "စကားဝှက်မေ့သလား?",
+    "magicLink": "ဝင်ရောက်ရန် လင့်ပို့",
+    "continueWith": "{provider} ဖြင့် ဆက်လုပ်"
+  },
+  "nav": {
+    "dashboard": "ပင်မစာမျက်နှာ",
+    "projects": "စီမံချက်များ",
+    "team": "အဖွဲ့",
+    "billing": "ငွေပေးချေမှု",
+    "settings": "ဆက်တင်များ"
+  },
+  "billing": {
+    "currentPlan": "လက်ရှိ အစီအစဉ်",
+    "upgrade": "အဆင့်မြှင့်",
+    "manageBilling": "ငွေပေးချေမှု စီမံ",
+    "trialEnds": "စမ်းသပ်မှု ပြီးဆုံး {date}"
+  },
+  "errors": {
+    "required": "လိုအပ်သည်",
+    "invalidEmail": "အီးမေးလ် မမှန်ကန်",
+    "unauthorized": "ခွင့်ပြုချက် မရှိ",
+    "notFound": "ရှာမတွေ့",
+    "serverError": "အမှားတစ်ခု ဖြစ်သွား"
+  }
+}

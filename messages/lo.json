@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "ບັນທຶກ",
+    "cancel": "ຍົກເລີກ",
+    "delete": "ລຶບ",
+    "edit": "ແກ້ໄຂ",
+    "create": "ສ້າງ",
+    "loading": "ກຳລັງໂຫຼດ...",
+    "search": "ຄົ້ນຫາ",
+    "yes": "ແມ່ນ",
+    "no": "ບໍ່"
+  },
+  "auth": {
+    "signIn": "ເຂົ້າສູ່ລະບົບ",
+    "signUp": "ສະໝັກ",
+    "signOut": "ອອກຈາກລະບົບ",
+    "email": "ອີເມວ",
+    "password": "ລະຫັດຜ່ານ",
+    "forgotPassword": "ລືມລະຫັດຜ່ານ?",
+    "magicLink": "ສົ່ງລິ້ງເຂົ້າສູ່ລະບົບ",
+    "continueWith": "ສືບຕໍ່ດ້ວຍ {provider}"
+  },
+  "nav": {
+    "dashboard": "ໜ້າຫຼັກ",
+    "projects": "ໂຄງການ",
+    "team": "ທີມ",
+    "billing": "ການຊຳລະເງິນ",
+    "settings": "ການຕັ້ງຄ່າ"
+  },
+  "billing": {
+    "currentPlan": "ແພັກເກັດປັດຈຸບັນ",
+    "upgrade": "ອັບເກຣດ",
+    "manageBilling": "ຈັດການການຊຳລະເງິນ",
+    "trialEnds": "ທົດລອງສິ້ນສຸດ {date}"
+  },
+  "errors": {
+    "required": "ຈຳເປັນ",
+    "invalidEmail": "ອີເມວບໍ່ຖືກຕ້ອງ",
+    "unauthorized": "ບໍ່ໄດ້ຮັບອະນຸຍາດ",
+    "notFound": "ບໍ່ພົບ",
+    "serverError": "ເກີດຂໍ້ຜິດພາດ"
+  }
+}

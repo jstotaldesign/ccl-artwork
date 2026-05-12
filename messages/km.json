@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "រក្សាទុក",
+    "cancel": "បោះបង់",
+    "delete": "លុប",
+    "edit": "កែសម្រួល",
+    "create": "បង្កើត",
+    "loading": "កំពុងផ្ទុក...",
+    "search": "ស្វែងរក",
+    "yes": "បាទ/ចាស",
+    "no": "ទេ"
+  },
+  "auth": {
+    "signIn": "ចូល",
+    "signUp": "ចុះឈ្មោះ",
+    "signOut": "ចេញ",
+    "email": "អ៊ីមែល",
+    "password": "ពាក្យសម្ងាត់",
+    "forgotPassword": "ភ្លេចពាក្យសម្ងាត់?",
+    "magicLink": "ផ្ញើតំណចូល",
+    "continueWith": "បន្តជាមួយ {provider}"
+  },
+  "nav": {
+    "dashboard": "ផ្ទាំងបញ្ជា",
+    "projects": "គម្រោង",
+    "team": "ក្រុម",
+    "billing": "ការទូទាត់",
+    "settings": "ការកំណត់"
+  },
+  "billing": {
+    "currentPlan": "គម្រោងបច្ចុប្បន្ន",
+    "upgrade": "ដំឡើងកំណែ",
+    "manageBilling": "គ្រប់គ្រងការទូទាត់",
+    "trialEnds": "សាកល្បងបញ្ចប់ {date}"
+  },
+  "errors": {
+    "required": "ត្រូវការ",
+    "invalidEmail": "អ៊ីមែលមិនត្រឹមត្រូវ",
+    "unauthorized": "មិនមានសិទ្ធិ",
+    "notFound": "រកមិនឃើញ",
+    "serverError": "មានកំហុស"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "create": "Tạo",
+    "loading": "Đang tải...",
+    "search": "Tìm kiếm",
+    "yes": "Có",
+    "no": "Không"
+  },
+  "auth": {
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "signOut": "Đăng xuất",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "magicLink": "Gửi liên kết đăng nhập",
+    "continueWith": "Tiếp tục với {provider}"
+  },
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "projects": "Dự án",
+    "team": "Nhóm",
+    "billing": "Thanh toán",
+    "settings": "Cài đặt"
+  },
+  "billing": {
+    "currentPlan": "Gói hiện tại",
+    "upgrade": "Nâng cấp",
+    "manageBilling": "Quản lý thanh toán",
+    "trialEnds": "Dùng thử kết thúc {date}"
+  },
+  "errors": {
+    "required": "Bắt buộc",
+    "invalidEmail": "Email không hợp lệ",
+    "unauthorized": "Không có quyền",
+    "notFound": "Không tìm thấy",
+    "serverError": "Đã xảy ra lỗi"
+  }
+}

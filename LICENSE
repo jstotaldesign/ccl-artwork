@@ -1,0 +1,122 @@
+NextPolyglot Commercial License
+================================
+
+Copyright (c) 2026 NextPolyglot. All rights reserved.
+
+This software (the "Template") is a commercial product. Use of the Template is
+governed by the license tier purchased and these terms, which together form a
+binding agreement between you (the "Licensee") and NextPolyglot.
+
+----------------------------------------------------------------------
+1. LICENSE TIERS
+----------------------------------------------------------------------
+
+  STARTER LICENSE
+    - One (1) end product.
+    - One (1) developer.
+    - End product may be commercial or non-commercial.
+    - Source code may be modified.
+
+  PRO LICENSE
+    - Unlimited end products.
+    - One (1) developer.
+    - End products may be commercial or non-commercial.
+    - Source code may be modified.
+
+  BUSINESS LICENSE
+    - Unlimited end products.
+    - Up to ten (10) developers in one organization.
+    - End products may be commercial or non-commercial.
+    - Source code may be modified.
+    - Includes white-label rights (remove "Powered by NextPolyglot").
+
+The applicable tier is the one shown on the Licensee's purchase receipt.
+
+----------------------------------------------------------------------
+2. WHAT YOU MAY DO
+----------------------------------------------------------------------
+
+  - Use the Template to build software products (the "End Products").
+  - Modify, extend, and combine the Template with your own code.
+  - Distribute the COMPILED output of your End Products under your own
+    branding.
+  - Charge end users for access to your End Products.
+  - Use the Template across the project counts and developer counts
+    permitted by your tier.
+
+----------------------------------------------------------------------
+3. WHAT YOU MAY NOT DO
+----------------------------------------------------------------------
+
+  - Resell, sublicense, or redistribute the Template's source code,
+    in whole or in substantial part, to any third party.
+  - Use the Template to build a directly competing product (i.e. a
+    Next.js SaaS boilerplate or admin template marketplace).
+  - Remove or obscure copyright notices within the source files.
+  - Share your license key, repository access, or any download
+    credentials.
+  - Use the Template for any unlawful purpose.
+
+----------------------------------------------------------------------
+4. UPDATES
+----------------------------------------------------------------------
+
+Your license includes twelve (12) months of updates from the date of
+purchase. After twelve months, you may continue to use the version you
+have indefinitely; future updates require a renewal at the rate then in
+effect.
+
+----------------------------------------------------------------------
+5. SUPPORT
+----------------------------------------------------------------------
+
+Support level is determined by your tier and is described on the
+pricing page at the time of purchase. Support is provided via email
+and (for Pro / Business) through a private community channel.
+
+----------------------------------------------------------------------
+6. WARRANTY DISCLAIMER
+----------------------------------------------------------------------
+
+THE TEMPLATE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+----------------------------------------------------------------------
+7. LIMITATION OF LIABILITY
+----------------------------------------------------------------------
+
+IN NO EVENT SHALL NEXTPOLYGLOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE TEMPLATE OR THE USE OR
+OTHER DEALINGS IN THE TEMPLATE. AGGREGATE LIABILITY IS CAPPED AT THE
+AMOUNT PAID BY THE LICENSEE FOR THE TEMPLATE.
+
+----------------------------------------------------------------------
+8. THIRD-PARTY COMPONENTS
+----------------------------------------------------------------------
+
+The Template includes third-party open source libraries, each under
+their own license. See THIRD_PARTY_NOTICES.md for the complete list and
+attributions. Use of those components is governed by their respective
+licenses; nothing in this Agreement modifies or supersedes them.
+
+----------------------------------------------------------------------
+9. REFUNDS
+----------------------------------------------------------------------
+
+A full refund is available within fourteen (14) days of purchase. After
+fourteen days, refunds are at NextPolyglot's sole discretion.
+
+----------------------------------------------------------------------
+10. GOVERNING LAW
+----------------------------------------------------------------------
+
+This Agreement is governed by the laws of Thailand. Any dispute shall
+be resolved exclusively in the courts of Bangkok, Thailand.
+
+----------------------------------------------------------------------
+11. CONTACT
+----------------------------------------------------------------------
+
+For licensing questions, contact: legal@nextpolyglot.dev

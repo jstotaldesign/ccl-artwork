@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+ * Brand tokens — buyers customize here.
+ * Class-based dark mode: <html class="dark"> activates the dark
+ * palette. ThemeProvider manages this from localStorage.
+ * ============================================================ */
+/* ============================================================
+ * Light palette — soft off-white surface, white cards lift up.
+ *
+ * Hierarchy (light → dark):
+ *   card (#ffffff) > background (#f7f8fb) > muted (#eef1f6)
+ *
+ * Page bg is a subtle blue-gray (#f7f8fb) so pure-white cards have
+ * a visible drop. Avoids the "snow blindness" of plain #ffffff for
+ * long admin sessions. Matches GitHub / Linear / Vercel patterns.
+ * ============================================================ */
+:root {
+  --brand: #f97316;
+  --brand-hover: #ea580c;
+  --brand-fg: #ffffff;
+  --brand-soft: #fff4e6;
+  --brand-strong: #c2410c;
+
+  --background: #f7f8fb;
+  --foreground: #1e293b;
+  --muted: #eef1f6;
+  --muted-fg: #64748b;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --ring: var(--brand);
+
+  --success: #16a34a;
+  --warning: #eab308;
+  --danger: #dc2626;
+  --info: #2563eb;
+
+  --shadow-sm: 0 1px 2px 0 rgb(15 23 42 / 0.05);
+  --shadow-md: 0 4px 12px -2px rgb(15 23 42 / 0.06), 0 2px 4px -2px rgb(15 23 42 / 0.04);
+  --shadow-lg: 0 20px 40px -10px rgb(15 23 42 / 0.10), 0 4px 12px -4px rgb(15 23 42 / 0.05);
+}
+
+/* ============================================================
+ * Dark palette — slate / navy gray, GitHub-Dimmed inspired.
+ *
+ * Hierarchy (light → dark):
+ *   muted (#1e2532) > card (#171c25) > background (#0e131c)
+ *
+ * Avoids pure black (#0a0a0b causes eye strain); subtle blue tint
+ * matches modern admin dashboards (Vercel, Linear, GitHub).
+ * Each surface step is ~6% lighter so card/muted are clearly visible
+ * on background without harsh contrast.
+ * ============================================================ */
+.dark {
+  --background: #0e131c;
+  --foreground: #e6ecf3;
+  --muted: #1e2532;
+  --muted-fg: #94a3b8;
+  --card: #171c25;
+  --border: #2a3142;
+  --brand-soft: #3a2418;
+
+  --success: #22c55e;
+  --warning: #facc15;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 12px -2px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  --shadow-lg: 0 20px 40px -10px rgb(0 0 0 / 0.5), 0 4px 12px -4px rgb(0 0 0 / 0.4);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-fg: var(--brand-fg);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-strong: var(--brand-strong);
+  --color-muted: var(--muted);
+  --color-muted-fg: var(--muted-fg);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-thai), var(--font-geist-sans), "Noto Sans Thai", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+ * Gradient mesh background — used on landing hero and auth pages.
+ * Layered radial gradients give a soft "aurora" feel without an
+ * image asset. Tint shifts with dark mode automatically because
+ * the colors are CSS variables.
+ * ============================================================ */
+.bg-mesh {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(at 12% 20%, color-mix(in oklab, var(--brand) 22%, transparent) 0px, transparent 50%),
+    radial-gradient(at 85% 10%, color-mix(in oklab, #8b5cf6 18%, transparent) 0px, transparent 50%),
+    radial-gradient(at 75% 85%, color-mix(in oklab, var(--brand) 14%, transparent) 0px, transparent 50%),
+    radial-gradient(at 15% 90%, color-mix(in oklab, #06b6d4 12%, transparent) 0px, transparent 50%);
+}
+.dark .bg-mesh {
+  background-image:
+    radial-gradient(at 12% 20%, color-mix(in oklab, var(--brand) 18%, transparent) 0px, transparent 50%),
+    radial-gradient(at 85% 10%, color-mix(in oklab, #8b5cf6 22%, transparent) 0px, transparent 50%),
+    radial-gradient(at 75% 85%, color-mix(in oklab, var(--brand) 12%, transparent) 0px, transparent 50%),
+    radial-gradient(at 15% 90%, color-mix(in oklab, #06b6d4 14%, transparent) 0px, transparent 50%);
+}
+
+/* Subtle grid overlay — adds texture under the mesh. */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 70%);
+}
+
+/* Brand gradient — for buttons, badges, headlines that pop. */
+.bg-brand-gradient {
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-hover) 50%, #ec4899 100%);
+}
+.text-brand-gradient {
+  background: linear-gradient(135deg, var(--brand) 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ============================================================
+ * Animations
+ * ============================================================ */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up { animation: fade-up 0.5s ease-out both; }
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--success) 50%, transparent); }
+  70% { box-shadow: 0 0 0 8px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.animate-pulse-ring { animation: pulse-ring 2s infinite; }
+
+/* Smooth focus rings — excluded from form controls because they have their
+ * own focus styling via `focus:ring-2 focus:ring-[var(--ring)]` (avoids
+ * double outline on inputs/selects/textareas). */
+*:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[contenteditable]:focus-visible {
+  outline: none;
+}
