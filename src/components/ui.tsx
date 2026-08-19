@@ -212,7 +212,7 @@ export const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttribute
       <input
         ref={ref}
         {...rest}
-        className={`w-full px-3 py-2 text-sm rounded-xl border border-[var(--border)] bg-[var(--background)] outline-none focus:ring-2 focus:ring-[var(--ring)] focus:border-transparent transition-all ${className}`}
+        className={`w-full px-3 py-2 text-sm rounded-xl border border-[var(--border)] bg-[var(--card)] outline-none focus:ring-2 focus:ring-[var(--ring)] focus:border-transparent transition-all ${className}`}
       />
     );
   },
@@ -224,7 +224,7 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, React.TextareaHTML
       <textarea
         ref={ref}
         {...rest}
-        className={`w-full px-3 py-2 text-sm rounded-xl border border-[var(--border)] bg-[var(--background)] outline-none focus:ring-2 focus:ring-[var(--ring)] focus:border-transparent transition-all min-h-[80px] ${className}`}
+        className={`w-full px-3 py-2 text-sm rounded-xl border border-[var(--border)] bg-[var(--card)] outline-none focus:ring-2 focus:ring-[var(--ring)] focus:border-transparent transition-all min-h-[80px] ${className}`}
       />
     );
   },
